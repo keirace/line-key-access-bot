@@ -15,3 +15,5 @@ python >= 3.4
   * Linux
     * $ change directory into line bot sdk
     * $ sudo python setup.py install
+    
+* To use speech-to-text, you need [cloud sdk](https://cloud.google.com/sdk/docs/install) installed and get download [key](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/keys/create) as key.json to the same directory as app.py

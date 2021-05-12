@@ -165,8 +165,6 @@ def message_audio(event):
     audio.export(wav, format='wav')
     client = speech.SpeechClient()
 
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"]=("key.json")
-
     with io.open(wav, "rb") as audio_file:
         content = audio_file.read()
 
